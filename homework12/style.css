@@ -1,0 +1,31 @@
+
+.first-paragraph {
+	background-color:red;
+}
+
+.text-center {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+
+h2+p {
+	text-align:  center;
+	text-decoration: underline;
+	border: 5px solid powderblue;
+}
+
+[capitalaize] {
+	
+text-transform: capitalize;
+}
+
+body {
+background-image:url(fot.jpg);
+background-repeat:no-repeat;
+background-position:center 80px;
+background-size: cover;
+}
+
+audio { 
+	width: 100%; 
+		}
