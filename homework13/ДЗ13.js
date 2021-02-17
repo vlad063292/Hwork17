@@ -47,4 +47,4 @@ while (n >= 50) {
     num = num +1 ;
 }
 console.log (' Результат деления: n = ' +n ) ;
-console.log( ' Количество итераций: num = '+n );
+console.log( ' Количество итераций: num = '+num );
