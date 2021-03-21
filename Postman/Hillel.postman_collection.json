@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "16096984-0486-467d-bfd6-0edef7aa9e54",
+		"name": "Hillel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "firstName",
+							"value": "postman",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "postman",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "asdef@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "mobilePhone",
+							"value": "380632923374",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "123579",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "asdfjkl'1F",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "position",
+							"value": "qa",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://user-data.hillel.it/api/users",
+					"protocol": "https",
+					"host": [
+						"user-data",
+						"hillel",
+						"it"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create user for delete",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "firstName",
+							"value": "postman",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "postman",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "asdef@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "mobilePhone",
+							"value": "380632923374",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "123579",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "asdfjkl'1F",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "position",
+							"value": "qa",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://user-data.hillel.it/api/users",
+					"protocol": "https",
+					"host": [
+						"user-data",
+						"hillel",
+						"it"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search email",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://user-data.hillel.it/api/users/search?email=asdef@gmail.com",
+					"protocol": "https",
+					"host": [
+						"user-data",
+						"hillel",
+						"it"
+					],
+					"path": [
+						"api",
+						"users",
+						"search"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "asdef@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post user",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "firstName",
+							"value": "postwoman1",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "postman",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "asdef@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "mobilePhone",
+							"value": "380632923374",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "123579",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "position",
+							"value": "qa",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://user-data.hillel.it/api/users/6036ce2d308d3c385f63d5dd",
+					"protocol": "https",
+					"host": [
+						"user-data",
+						"hillel",
+						"it"
+					],
+					"path": [
+						"api",
+						"users",
+						"6036ce2d308d3c385f63d5dd"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
